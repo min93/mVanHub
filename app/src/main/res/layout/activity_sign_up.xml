@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="kmutnb.rattapon.chatupon.chaturaphon.vanhub.SignUpActivity"
-    android:background="#ed8b59">
+    android:background="@color/accent_material_dark">
 
     <Button
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
         android:text="@string/regis"
         android:id="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:textColor="@color/text" />
 
     <ScrollView
@@ -29,7 +29,7 @@
         android:id="@+id/scrollView"
         android:layout_below="@+id/linLatLng"
         android:layout_margin="15dp"
-        android:background="#96ffffff"
+        android:background="@drawable/border"
         android:layout_above="@+id/button3">
 
         <LinearLayout
@@ -52,7 +52,7 @@
                     android:hint="Full name"
                     android:textColor="@android:color/secondary_text_light"
                     android:inputType="text"
-                    android:textColorHint="@color/text" />
+                    android:textColorHint="@color/primary_text_default_material_light" />
             </LinearLayout>
 
             <LinearLayout
@@ -69,7 +69,7 @@
                     android:hint="User login"
                     android:textColor="@color/text"
                     android:inputType="text"
-                    android:textColorHint="@color/text" />
+                    android:textColorHint="@color/primary_dark_material_dark" />
             </LinearLayout>
 
             <LinearLayout
@@ -86,7 +86,7 @@
                     android:inputType="text"
                     android:hint="password"
                     android:textColor="@color/text"
-                    android:textColorHint="@color/text" />
+                    android:textColorHint="@color/primary_text_default_material_light" />
             </LinearLayout>
 
             <LinearLayout
@@ -102,7 +102,7 @@
                     android:inputType="text"
                     android:hint="email"
                     android:textColor="@color/text"
-                    android:textColorHint="@color/text" />
+                    android:textColorHint="@color/primary_text_default_material_light" />
             </LinearLayout>
 
             <LinearLayout
@@ -118,7 +118,7 @@
                     android:inputType="text"
                     android:hint="tel"
                     android:textColor="@color/text"
-                    android:textColorHint="@color/text" />
+                    android:textColorHint="@color/primary_text_default_material_light" />
             </LinearLayout>
 
             <LinearLayout
@@ -133,7 +133,7 @@
                     android:id="@+id/textView9"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/primary_text_default_material_light" />
 
                 <Spinner
                     android:layout_width="0dp"
@@ -155,7 +155,7 @@
                     android:id="@+id/textView10"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/primary_text_default_material_light" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -163,9 +163,9 @@
                     android:id="@+id/editText10"
                     android:layout_weight="2"
                     android:hint="price"
-                    android:textColor="@color/text"
+                    android:textColor="@color/primary_text_default_material_light"
                     android:inputType="text"
-                    android:textColorHint="@color/text" />
+                    android:textColorHint="@color/secondary_text_default_material_light" />
             </LinearLayout>
 
             <LinearLayout
@@ -180,7 +180,7 @@
                     android:id="@+id/textView11"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/primary_text_default_material_light" />
 
                 <Spinner
                     android:layout_width="0dp"
@@ -202,7 +202,7 @@
                     android:id="@+id/textView12"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/primary_text_default_material_light" />
 
                 <Spinner
                     android:layout_width="0dp"
@@ -224,7 +224,7 @@
                     android:id="@+id/textView13"
                     android:layout_weight="1"
                     android:textSize="20sp"
-                    android:textColor="@color/text" />
+                    android:textColor="@color/primary_text_default_material_light" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -234,7 +234,7 @@
                     android:hint="update"
                     android:textColor="@color/text"
                     android:inputType="text"
-                    android:textColorHint="@color/text" />
+                    android:textColorHint="@color/secondary_text_default_material_light" />
             </LinearLayout>
 
         </LinearLayout>
@@ -249,7 +249,8 @@
         android:layout_marginBottom="15dp"
         android:layout_margin="15dp"
         android:layout_below="@+id/textView"
-        android:background="#96ffffff">
+        android:background="@drawable/border"
+        android:padding="2dp">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -261,18 +262,20 @@
                 android:layout_height="wrap_content"
                 android:text="@string/lat"
                 android:id="@+id/textView6"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:layout_weight="1"
-                android:textColor="@android:color/secondary_text_light" />
+                android:textColor="@android:color/secondary_text_light"
+                android:paddingLeft="10dp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/unknow"
                 android:id="@+id/textView14"
-                android:textSize="25sp"
+                android:textSize="15sp"
                 android:layout_weight="2"
-                android:textColor="@android:color/secondary_text_light" />
+                android:textColor="@android:color/secondary_text_light"
+                android:textStyle="italic" />
         </LinearLayout>
 
         <LinearLayout
@@ -285,18 +288,20 @@
                 android:layout_height="wrap_content"
                 android:text="@string/lng"
                 android:id="@+id/textView17"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:layout_weight="1"
-                android:textColor="@android:color/secondary_text_light" />
+                android:textColor="@android:color/secondary_text_light"
+                android:paddingLeft="10dp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/unknow"
                 android:id="@+id/textView18"
-                android:textSize="25sp"
+                android:textSize="15sp"
                 android:layout_weight="2"
-                android:textColor="@android:color/secondary_text_light" />
+                android:textColor="@android:color/secondary_text_light"
+                android:textStyle="italic" />
         </LinearLayout>
 
         <LinearLayout
