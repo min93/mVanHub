@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vanhub</string>
+
+    <!--This is Min-->
+    <string name="regis">ลงทะเบียน</string>
+    <string name="user">ชื่อ</string>
+    <string name="pass">รหัสผ่าน</string>
+    <string name="email">email</string>
+    <string name="tel">เบอร์โทร</string>
+    <string name="start">ต้นทาง</string>
+    <string name="stop">ปลายทาง</string>
+    <string name="price">ราคา</string>
+    <string name="timeStart">เวลาเที่ยวแรก</string>
+    <string name="timeEnd">เวลาเที่ยวสุดท้าย</string>
+    <string name="specialnews">ข่าวสาร</string>
+    <string name="lat">ละติจูต</string>
+    <string name="lng">ลองติจูต</string>
+    <string name="title_activity_my_maps">Map</string>
+    <string name="head_map">โปรดระบุตำแหน่ง</string>
+    <string name="save_location">บันทึกตำแหน่ง</string>
+    <string name="unknow">ยังไม่ได้กำหนด</string>
+
+</resources>
